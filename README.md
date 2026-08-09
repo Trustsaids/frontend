@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Trust Aid Initiative — Website
+
+A rebuild of the Trust Aid Initiative NGO website (previously live at
+`trustaidngo.vercel.app`), recreated after the original GitHub repository
+became inaccessible. Colors, typography, imagery, and copy were sourced
+directly from the live site's compiled assets to keep the rebuild faithful
+to the original.
+
+Trust Aid Initiative is a Nigerian NGO (founded 2012, HQ in Kaduna) working
+across trauma healing, peacebuilding, climate action, and livelihood
+empowerment in Taraba, Benue, Nasarawa, and Kaduna States.
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) (App Router)
+- React + TypeScript
+- Tailwind CSS v4
+- [Framer Motion](https://www.framer.com/motion/) for scroll-reveal and interactive animations
+- [lucide-react](https://lucide.dev) for icons
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load the Inter font family.
+```
+app/                  Route segments (App Router) — one folder per page
+components/
+  layout/             Navbar, Footer
+  home/                Homepage sections (hero, stats, program pillars, etc.)
+  shared/              Reusable pieces (SectionHeading, FadeIn, CtaBanner, ...)
+  forms/               Contact, volunteer, newsletter, donation forms
+  programs/ impact/ peace-hub/ get-involved/   Page-specific sections
+lib/data/             Typed content (programs, impact stats, site copy, etc.)
+```
 
-## Learn More
+## Notes
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- All forms (contact, volunteer, job application, newsletter, donation) are
+  client-side only with simulated success states — no backend is wired up
+  yet. Connect a real service (e.g. Resend/email API, Paystack/Flutterwave
+  for donations) before taking this to production.
+- Some pages (Events, Our Partners) were stub/placeholder pages on the
+  original live site and were fleshed out here using real content found
+  elsewhere in the original site's codebase.
