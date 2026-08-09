@@ -1,0 +1,68 @@
+import type { Metadata } from "next";
+import { MapPin, Mail, Building2 } from "lucide-react";
+import PageHero from "@/components/shared/PageHero";
+import ContactForm from "@/components/forms/ContactForm";
+import { siteConfig } from "@/lib/data/site";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description: "Fill out the form below and we'll get back to you within 24-48 hours.",
+};
+
+export default function ContactPage() {
+  return (
+    <>
+      <PageHero
+        title="Contact Us"
+        subtitle="Fill out the form below and we'll get back to you within 24-48 hours."
+      />
+
+      <section className="section-y bg-gray-50">
+        <div className="container-custom grid grid-cols-1 gap-12 lg:grid-cols-3">
+          <div className="space-y-8 lg:col-span-1">
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-700">
+                <Building2 size={22} />
+              </div>
+              <div>
+                <h3 className="mb-1 font-bold text-gray-900">Headquarters</h3>
+                <p className="text-gray-600">{siteConfig.location}</p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-700">
+                <MapPin size={22} />
+              </div>
+              <div>
+                <h3 className="mb-1 font-bold text-gray-900">Field Offices</h3>
+                <p className="text-gray-600">{siteConfig.fieldOffices}</p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-700">
+                <Mail size={22} />
+              </div>
+              <div>
+                <h3 className="mb-1 font-bold text-gray-900">Email</h3>
+                <a href={`mailto:${siteConfig.email}`} className="text-gray-600 hover:text-green-700">
+                  {siteConfig.email}
+                </a>
+                <br />
+                <a
+                  href={`mailto:${siteConfig.partnershipsEmail}`}
+                  className="text-gray-600 hover:text-green-700"
+                >
+                  {siteConfig.partnershipsEmail}
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="lg:col-span-2">
+            <ContactForm />
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
