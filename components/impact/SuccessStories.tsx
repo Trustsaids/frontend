@@ -22,19 +22,6 @@ export default function SuccessStories() {
                     {story.title}
                   </h3>
                   <p className="mb-6 text-lg text-gray-700">{story.description}</p>
-                  <div className="rounded-xl bg-blue-50 p-6">
-                    <h4 className="mb-4 text-lg font-semibold text-gray-900">
-                      Key Impact Metrics:
-                    </h4>
-                    <ul className="space-y-2">
-                      {story.impact.map((point) => (
-                        <li key={point} className="flex items-start gap-2 text-sm text-gray-700">
-                          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />
-                          {point}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>

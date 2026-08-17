@@ -50,7 +50,7 @@ export const timeline = [
   { year: "2024", event: "VSLA programs scaled", description: "Expanded livelihood empowerment across multiple states" },
   { year: "2025", event: "Project TRAMHAH initiated", description: "Began trauma healing and mental health support programs" },
   { year: "2025", event: "Global Fund Malaria Project", description: "Major partnership for integrated health services in Kaduna" },
-  { year: "2026", event: "Continuing Impact", description: "Serving communities across Taraba, Benue, Nasarawa, and Kaduna" },
+  { year: "2026", event: "Continuing Impact", description: "Serving communities across Benue, Nasarawa, and Kaduna" },
 ];
 
 export const galleryImages = [

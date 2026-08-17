@@ -27,7 +27,7 @@ export default function OurImpactPage() {
         <div className="container-custom">
           <SectionHeading
             title="Success Stories"
-            subtitle="Deep dives into transformative programs across four states"
+            subtitle="Deep dives into transformative programs across three states"
           />
           <SuccessStories />
         </div>
