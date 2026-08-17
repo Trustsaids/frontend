@@ -13,7 +13,7 @@ export default function PageHero({
   children?: ReactNode;
 }) {
   return (
-    <section className="bg-gradient-to-r from-green-700 to-blue-700 py-20 text-white">
+    <section className="bg-gradient-to-r from-brand-indigo to-brand-blue py-20 text-white">
       <div className="container-custom text-center">
         <motion.h1
           initial={{ opacity: 0, y: 24 }}

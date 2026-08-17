@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/data/site";
 
 export default function HeroSection() {
   return (
-    <section className="relative flex h-[600px] items-center overflow-hidden bg-gradient-to-r from-green-900 to-blue-900">
+    <section className="relative flex h-[600px] items-center overflow-hidden bg-gradient-to-r from-brand-indigo to-brand-blue">
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
         style={{

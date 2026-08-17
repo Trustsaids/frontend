@@ -64,6 +64,11 @@ const config: Config = {
           800: "#92400e",
           900: "#78350f",
         },
+        // Sampled from the Trust Aid logo — indigo of "Trust", blue of "Aid".
+        brand: {
+          indigo: "#3e3a78",
+          blue: "#09adec",
+        },
       },
       fontFamily: {
         sans: ["var(--font-sans)", "ui-sans-serif", "system-ui", "sans-serif"],
