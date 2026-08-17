@@ -1,10 +1,24 @@
-import { Users, HeartHandshake, PiggyBank, ShieldCheck, type LucideIcon } from "lucide-react";
+import { Sprout, GraduationCap, HeartHandshake, type LucideIcon } from "lucide-react";
 
 export const impactStats: { icon: LucideIcon; number: string; label: string; color: string }[] = [
-  { icon: Users, number: "50,000+", label: "Lives Impacted", color: "text-blue-600" },
-  { icon: HeartHandshake, number: "15,000+", label: "Trauma Survivors Supported", color: "text-purple-600" },
-  { icon: PiggyBank, number: "8,500+", label: "VSLA Members", color: "text-green-600" },
-  { icon: ShieldCheck, number: "200+", label: "Peace Committees Trained", color: "text-amber-600" },
+  {
+    icon: Sprout,
+    number: "1,000+",
+    label: "Rural farmers trained on climate-smart and eco-friendly farming in Kaduna State",
+    color: "text-green-600",
+  },
+  {
+    icon: GraduationCap,
+    number: "6,000+",
+    label: "Women and youths given vocational training across Kaduna, Taraba, Benue, Nasarawa States, and the FCT",
+    color: "text-blue-600",
+  },
+  {
+    icon: HeartHandshake,
+    number: "100+",
+    label: "Clients provided trauma counseling services",
+    color: "text-purple-600",
+  },
 ];
 
 export const successStories = [

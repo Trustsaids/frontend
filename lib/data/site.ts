@@ -63,8 +63,15 @@ export const galleryImages = [
 ];
 
 export const homeImpactStats = [
-  { number: "50,000+", label: "Lives Impacted", color: "text-blue-600" },
-  { number: "15,000+", label: "Trauma Survivors Supported", color: "text-purple-600" },
-  { number: "8,500+", label: "VSLA Members", color: "text-green-600" },
-  { number: "200+", label: "Peace Committees Trained", color: "text-amber-600" },
+  {
+    number: "1,000+",
+    label: "Rural farmers trained on climate-smart and eco-friendly farming in Kaduna State",
+    color: "text-green-600",
+  },
+  {
+    number: "6,000+",
+    label: "Women and youths given vocational training across Kaduna, Taraba, Benue, Nasarawa States, and the FCT",
+    color: "text-blue-600",
+  },
+  { number: "100+", label: "Clients provided trauma counseling services", color: "text-purple-600" },
 ];
