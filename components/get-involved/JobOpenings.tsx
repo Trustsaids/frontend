@@ -6,6 +6,7 @@ import { MapPin, Clock, CalendarDays, X, CheckCircle2 } from "lucide-react";
 import SectionHeading from "@/components/shared/SectionHeading";
 import FadeIn from "@/components/shared/FadeIn";
 import { jobOpenings } from "@/lib/data/getInvolved";
+import { siteConfig } from "@/lib/data/site";
 
 export default function JobOpenings() {
   const [activeJob, setActiveJob] = useState<string | null>(null);
@@ -63,7 +64,7 @@ export default function JobOpenings() {
         <p className="mt-10 text-center text-gray-600">
           Don&apos;t see a position that fits? We&apos;re always looking for talented
           individuals.{" "}
-          <a href="mailto:info@trustaid.org" className="font-semibold text-green-700 hover:text-green-800">
+          <a href={`mailto:${siteConfig.email}`} className="font-semibold text-green-700 hover:text-green-800">
             Send us your resume
           </a>
         </p>

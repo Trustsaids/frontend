@@ -4,9 +4,10 @@ export const siteConfig = {
   description:
     "We operate on a fundamental conviction that every individual deserves dignity, hope, and the opportunity to thrive. Our four core thematic areas drive sustainable development and healing across Nigeria, anchored by our active community-led projects.",
   foundedYear: 2021,
-  email: "info@trustaid.org",
+  email: "info@trustsaids.org",
   partnershipsEmail: "partnerships@trustaidprofessional.org",
-  location: "Kaduna, Nigeria",
+  phone: "08054466667",
+  location: "No1 Intercity Bank Road, Central Business District, Mogadishu, Kaduna",
   fieldOffices: "Taraba, Benue, Nasarawa, and Kaduna States",
   vision:
     "To transform lives by building peaceful, resilient communities anchored in healthy minds and a greener planet.",
@@ -22,7 +23,6 @@ export const navLinks = [
   { label: "What We Do", href: "/what-we-do" },
   { label: "Programs", href: "/programs" },
   { label: "Our Impact", href: "/our-impact" },
-  { label: "Peace Hub", href: "/peace-hub" },
   { label: "Our Partners", href: "/our-partners" },
   { label: "Get Involved", href: "/get-involved" },
 ];
@@ -32,7 +32,6 @@ export const footerLinks = [
   { label: "About Us", href: "/about" },
   { label: "What We Do", href: "/what-we-do" },
   { label: "Our Impact", href: "/our-impact" },
-  { label: "Peace Hub", href: "/peace-hub" },
   { label: "Get Involved", href: "/get-involved" },
 ];
 

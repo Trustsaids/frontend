@@ -1,4 +1,7 @@
+"use client";
+
 import type { ReactNode } from "react";
+import { motion } from "framer-motion";
 
 export default function PageHero({
   title,
@@ -12,9 +15,23 @@ export default function PageHero({
   return (
     <section className="bg-gradient-to-r from-green-700 to-blue-700 py-20 text-white">
       <div className="container-custom text-center">
-        <h1 className="text-4xl font-bold sm:text-5xl">{title}</h1>
+        <motion.h1
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="text-4xl font-bold sm:text-5xl"
+        >
+          {title}
+        </motion.h1>
         {subtitle && (
-          <p className="mx-auto mt-6 max-w-3xl text-lg text-white/90 sm:text-xl">{subtitle}</p>
+          <motion.p
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
+            className="mx-auto mt-6 max-w-3xl text-lg text-white/90 sm:text-xl"
+          >
+            {subtitle}
+          </motion.p>
         )}
         {children}
       </div>

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { MapPin, Mail, Building2 } from "lucide-react";
+import { MapPin, Mail, Building2, Phone } from "lucide-react";
 import PageHero from "@/components/shared/PageHero";
 import ContactForm from "@/components/forms/ContactForm";
+import FadeIn from "@/components/shared/FadeIn";
 import { siteConfig } from "@/lib/data/site";
 
 export const metadata: Metadata = {
@@ -19,7 +20,7 @@ export default function ContactPage() {
 
       <section className="section-y bg-gray-50">
         <div className="container-custom grid grid-cols-1 gap-12 lg:grid-cols-3">
-          <div className="space-y-8 lg:col-span-1">
+          <FadeIn className="space-y-8 lg:col-span-1">
             <div className="flex gap-4">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-700">
                 <Building2 size={22} />
@@ -40,6 +41,17 @@ export default function ContactPage() {
             </div>
             <div className="flex gap-4">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-700">
+                <Phone size={22} />
+              </div>
+              <div>
+                <h3 className="mb-1 font-bold text-gray-900">Phone</h3>
+                <a href={`tel:${siteConfig.phone}`} className="text-gray-600 hover:text-green-700">
+                  {siteConfig.phone}
+                </a>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-700">
                 <Mail size={22} />
               </div>
               <div>
@@ -56,11 +68,11 @@ export default function ContactPage() {
                 </a>
               </div>
             </div>
-          </div>
+          </FadeIn>
 
-          <div className="lg:col-span-2">
+          <FadeIn delay={0.1} className="lg:col-span-2">
             <ContactForm />
-          </div>
+          </FadeIn>
         </div>
       </section>
     </>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ShieldCheck, HeartHandshake, Sprout } from "lucide-react";
 import PageHero from "@/components/shared/PageHero";
 import DonationForm from "@/components/forms/DonationForm";
+import FadeIn from "@/components/shared/FadeIn";
 
 export const metadata: Metadata = {
   title: "Donate",
@@ -24,7 +25,7 @@ export default function DonatePage() {
 
       <section className="section-y bg-gray-50">
         <div className="container-custom grid grid-cols-1 gap-12 lg:grid-cols-5">
-          <div className="lg:col-span-2">
+          <FadeIn className="lg:col-span-2">
             <h2 className="mb-6 text-2xl font-bold text-gray-900">Your Impact</h2>
             <ul className="space-y-6">
               {impactPoints.map((point) => {
@@ -39,11 +40,11 @@ export default function DonatePage() {
                 );
               })}
             </ul>
-          </div>
+          </FadeIn>
 
-          <div className="lg:col-span-3">
+          <FadeIn delay={0.1} className="lg:col-span-3">
             <DonationForm />
-          </div>
+          </FadeIn>
         </div>
       </section>
     </>

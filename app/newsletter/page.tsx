@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Newspaper, Sparkles, HeartHandshake } from "lucide-react";
 import PageHero from "@/components/shared/PageHero";
 import NewsletterForm from "@/components/forms/NewsletterForm";
+import FadeIn from "@/components/shared/FadeIn";
 
 export const metadata: Metadata = {
   title: "Newsletter",
@@ -26,21 +27,25 @@ export default function NewsletterPage() {
       <section className="section-y bg-white">
         <div className="container-custom">
           <div className="mx-auto mb-12 grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-3">
-            {benefits.map((b) => {
+            {benefits.map((b, idx) => {
               const Icon = b.icon;
               return (
-                <div key={b.title} className="text-center">
-                  <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-green-100 text-green-700">
-                    <Icon size={24} />
+                <FadeIn key={b.title} delay={idx * 0.1}>
+                  <div className="text-center">
+                    <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-green-100 text-green-700">
+                      <Icon size={24} />
+                    </div>
+                    <h3 className="mb-1 font-bold text-gray-900">{b.title}</h3>
+                    <p className="text-sm text-gray-600">{b.description}</p>
                   </div>
-                  <h3 className="mb-1 font-bold text-gray-900">{b.title}</h3>
-                  <p className="text-sm text-gray-600">{b.description}</p>
-                </div>
+                </FadeIn>
               );
             })}
           </div>
 
-          <NewsletterForm />
+          <FadeIn delay={0.2}>
+            <NewsletterForm />
+          </FadeIn>
         </div>
       </section>
     </>

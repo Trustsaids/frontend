@@ -36,7 +36,7 @@ components/
   home/                Homepage sections (hero, stats, program pillars, etc.)
   shared/              Reusable pieces (SectionHeading, FadeIn, CtaBanner, ...)
   forms/               Contact, volunteer, newsletter, donation forms
-  programs/ impact/ peace-hub/ get-involved/   Page-specific sections
+  programs/ impact/ get-involved/   Page-specific sections
 lib/data/             Typed content (programs, impact stats, site copy, etc.)
 ```
 

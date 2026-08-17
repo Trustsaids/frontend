@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CalendarX } from "lucide-react";
 import PageHero from "@/components/shared/PageHero";
+import FadeIn from "@/components/shared/FadeIn";
 
 export const metadata: Metadata = {
   title: "Events",
@@ -17,7 +18,7 @@ export default function EventsPage() {
       />
 
       <section className="section-y bg-white">
-        <div className="container-custom max-w-xl text-center">
+        <FadeIn className="container-custom max-w-xl text-center">
           <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
             <CalendarX className="text-gray-400" size={36} />
           </div>
@@ -33,7 +34,7 @@ export default function EventsPage() {
           >
             Subscribe to Updates
           </Link>
-        </div>
+        </FadeIn>
       </section>
     </>
   );

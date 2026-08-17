@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/shared/PageHero";
 import VolunteerForm from "@/components/forms/VolunteerForm";
+import FadeIn from "@/components/shared/FadeIn";
 
 export const metadata: Metadata = {
   title: "Volunteer",
@@ -16,7 +17,9 @@ export default function VolunteerPage() {
       />
       <section className="section-y bg-gray-50">
         <div className="container-custom">
-          <VolunteerForm />
+          <FadeIn>
+            <VolunteerForm />
+          </FadeIn>
         </div>
       </section>
     </>

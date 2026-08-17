@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
-import { Handshake, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { navLinks } from "@/lib/data/site";
 
@@ -36,16 +37,15 @@ export default function Navbar() {
       )}
     >
       <nav className="container-custom flex h-16 items-center justify-between lg:h-20">
-        <Link href="/" className="flex items-center gap-2.5">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-green-600 text-white">
-            <Handshake size={20} />
-          </span>
-          <span className="leading-tight">
-            <span className="block text-lg font-bold text-gray-900">Trust Aid</span>
-            <span className="block text-[11px] font-medium tracking-wide text-gray-500">
-              INITIATIVE
-            </span>
-          </span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo-wordmark.png"
+            alt="Trust Aid Initiative"
+            width={643}
+            height={139}
+            priority
+            className="h-9 w-auto lg:h-10"
+          />
         </Link>
 
         <ul className="hidden items-center gap-6 xl:flex">
