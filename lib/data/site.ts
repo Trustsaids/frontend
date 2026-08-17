@@ -2,18 +2,18 @@ export const siteConfig = {
   name: "Trust Aid Initiative",
   tagline: "Transforming Lives, Building Peace, Greening the Planet",
   description:
-    "Trust Aid is a non-governmental, non-religious, non-political and not for profit-making organization in Nigeria, committed to building community resilience while fostering hope during and aftermath of violence, crises, disaster and other challenging situations.",
-  foundedYear: 2012,
+    "We operate on a fundamental conviction that every individual deserves dignity, hope, and the opportunity to thrive. Our four core thematic areas drive sustainable development and healing across Nigeria, anchored by our active community-led projects.",
+  foundedYear: 2021,
   email: "info@trustaid.org",
   partnershipsEmail: "partnerships@trustaidprofessional.org",
   location: "Kaduna, Nigeria",
-  fieldOffices: "Taraba, Benue, and Nasarawa States",
+  fieldOffices: "Taraba, Benue, Nasarawa, and Kaduna States",
   vision:
-    "To transform lives, build peaceful and resilient communities with healthier minds and a greener planet.",
+    "To transform lives by building peaceful, resilient communities anchored in healthy minds and a greener planet.",
   mission:
-    "To foster peace and social cohesion, drive climate action using anticipatory action and early warning early response systems.",
+    "To foster lasting peace and social cohesion while driving climate resilience through proactive anticipatory action and early warning systems.",
   history:
-    "Our journey began in August 2012, in response to the growing needs of vulnerable populations in Nigeria, who face numerous challenges — from conflicts and insecurity, displacement and migration, poor healthcare services, natural disasters/impact of climate change, social and economic inequality to cultural and religious tensions. It was founded on the principle that every individual deserves hope, dignity, and the opportunity to thrive.",
+    "Trust Aid was founded in August 2021 in response to the compounding crises facing vulnerable Nigerians, including conflict, displacement, healthcare deficits, climate change, and socio-economic challenge. We are dedicated to building community resilience and restoring hope during and after violence, crises, and environmental disasters.",
 };
 
 export const navLinks = [
@@ -45,12 +45,12 @@ export const coreValues = [
 ];
 
 export const timeline = [
-  { year: "2012", event: "Trust Aid Initiative founded", description: "Established to address community development needs" },
-  { year: "2015", event: "First EWER System deployed", description: "Launched early warning mechanisms in conflict-prone areas" },
-  { year: "2018", event: "Project TRAMHAH initiated", description: "Began trauma healing and mental health support programs" },
-  { year: "2020", event: "Climate Action expansion", description: "Introduced climate-smart agriculture initiatives" },
-  { year: "2022", event: "VSLA programs scaled", description: "Expanded livelihood empowerment across multiple states" },
-  { year: "2024", event: "Global Fund Malaria Project", description: "Major partnership for integrated health services in Kaduna" },
+  { year: "2021", event: "Trust Aid Initiative founded", description: "Established in August 2021 to address community development needs" },
+  { year: "2022", event: "First EWER System deployed", description: "Launched early warning mechanisms in conflict-prone areas" },
+  { year: "2023", event: "Climate Action expansion", description: "Introduced climate-smart agriculture initiatives" },
+  { year: "2024", event: "VSLA programs scaled", description: "Expanded livelihood empowerment across multiple states" },
+  { year: "2025", event: "Project TRAMHAH initiated", description: "Began trauma healing and mental health support programs" },
+  { year: "2025", event: "Global Fund Malaria Project", description: "Major partnership for integrated health services in Kaduna" },
   { year: "2026", event: "Continuing Impact", description: "Serving communities across Taraba, Benue, Nasarawa, and Kaduna" },
 ];
 

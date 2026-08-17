@@ -31,7 +31,7 @@ export default function HeroSection() {
           className="mb-8 max-w-2xl text-lg text-white/90 sm:text-xl md:text-2xl"
         >
           Empowering communities across Nigeria through trauma healing,
-          peacebuilding, climate action, and livelihood programs since 2012.
+          peacebuilding, climate action, and livelihood programs since 2021.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 24 }}

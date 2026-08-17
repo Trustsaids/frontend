@@ -9,7 +9,7 @@ export default function ImpactStats() {
   return (
     <section className="section-y bg-white">
       <div className="container-custom">
-        <SectionHeading title="Impact by the Numbers" subtitle="2012 — 2026" />
+        <SectionHeading title="Impact by the Numbers" subtitle="2021 — 2026" />
         <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
           {impactStats.map((stat, idx) => (
             <FadeIn key={stat.label} delay={idx * 0.1}>

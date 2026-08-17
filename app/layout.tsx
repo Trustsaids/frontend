@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: "%s | Trust Aid Initiative",
   },
   description:
-    "Trust Aid Initiative is a non-governmental organization building resilient communities through trauma healing, peacebuilding, climate action, and livelihood empowerment across Nigeria since 2012.",
+    "Trust Aid Initiative is a non-governmental organization building resilient communities through trauma healing, peacebuilding, climate action, and livelihood empowerment across Nigeria since 2021.",
 };
 
 export default function RootLayout({

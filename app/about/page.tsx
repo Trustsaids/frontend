@@ -17,7 +17,7 @@ export default function AboutPage() {
     <>
       <PageHero
         title="About Us"
-        subtitle="Building resilient communities across Nigeria since 2012"
+        subtitle="Building resilient communities across Nigeria since 2021"
       />
 
       <section className="section-y bg-white">
@@ -47,7 +47,7 @@ export default function AboutPage() {
 
       <section className="section-y bg-gray-50">
         <div className="container-custom">
-          <SectionHeading title="Our Journey" subtitle="Key milestones since 2012" />
+          <SectionHeading title="Our Journey" subtitle="Key milestones since 2021" />
           <Timeline />
         </div>
       </section>
