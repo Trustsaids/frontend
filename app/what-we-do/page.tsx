@@ -9,7 +9,7 @@ import FadeIn from "@/components/shared/FadeIn";
 export const metadata: Metadata = {
   title: "What We Do",
   description:
-    "Explore our programs in trauma healing, peacebuilding, climate action, and livelihood empowerment.",
+    "Explore our programs in trauma healing, peacebuilding, climate action, livelihood empowerment, and research and good governance.",
 };
 
 export default function WhatWeDoPage() {
@@ -17,7 +17,7 @@ export default function WhatWeDoPage() {
     <>
       <PageHero
         title="What We Do"
-        subtitle="Explore our programs in trauma healing, peacebuilding, climate action, and livelihood empowerment."
+        subtitle="Explore our programs in trauma healing, peacebuilding, climate action, livelihood empowerment, and research and good governance."
       />
 
       <ProgramPillars />

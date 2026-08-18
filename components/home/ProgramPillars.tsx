@@ -15,11 +15,11 @@ export default function ProgramPillars() {
     <section className="section-y bg-gray-50">
       <div className="container-custom">
         <SectionHeading
-          title="Our Four Pillars of Impact"
+          title="Our Five Pillars of Impact"
           subtitle="An integrated approach to community transformation through holistic programming"
         />
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {pillars.map((pillar, idx) => {
             const Icon = pillar.icon;
             return (
@@ -35,7 +35,9 @@ export default function ProgramPillars() {
                     <Icon className="text-white" size={32} />
                   </div>
                   <h3 className="mb-2 text-xl font-bold text-gray-900">{pillar.title}</h3>
-                  <p className="mb-4 text-sm font-medium text-green-600">{pillar.subtitle}</p>
+                  {pillar.subtitle && (
+                    <p className="mb-4 text-sm font-medium text-green-600">{pillar.subtitle}</p>
+                  )}
                   <p className="text-gray-600">{pillar.description}</p>
                 </button>
               </FadeIn>
@@ -75,7 +77,9 @@ export default function ProgramPillars() {
                 <activePillar.icon className="text-white" size={24} />
               </div>
               <h2 className="mb-1 text-3xl font-bold text-gray-900">{activePillar.title}</h2>
-              <p className="mb-6 text-sm text-green-600">{activePillar.subtitle}</p>
+              {activePillar.subtitle && (
+                <p className="mb-6 text-sm text-green-600">{activePillar.subtitle}</p>
+              )}
               <div className="space-y-4 text-sm leading-relaxed text-gray-700">
                 {activePillar.narrative.map((p) => (
                   <p key={p}>{p}</p>

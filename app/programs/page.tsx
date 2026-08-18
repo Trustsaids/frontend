@@ -6,7 +6,7 @@ import CtaBanner from "@/components/shared/CtaBanner";
 export const metadata: Metadata = {
   title: "Programs",
   description:
-    "Detailed activities and beneficiaries across our trauma healing, peacebuilding, climate action, and livelihood programs.",
+    "Detailed activities and beneficiaries across our trauma healing, peacebuilding, climate action, livelihood, and research and good governance programs.",
 };
 
 export default function ProgramsPage() {
@@ -14,7 +14,7 @@ export default function ProgramsPage() {
     <>
       <PageHero
         title="Programs"
-        subtitle="Explore our programs in trauma healing, peacebuilding, climate action, and livelihood empowerment."
+        subtitle="Explore our programs in trauma healing, peacebuilding, climate action, livelihood empowerment, and research and good governance."
       />
 
       <section className="section-y bg-gray-50">

@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Trust Aid Initiative",
   tagline: "Transforming Lives, Building Peace, Greening the Planet",
   description:
-    "We operate on a fundamental conviction that every individual deserves dignity, hope, and the opportunity to thrive. Our four core thematic areas drive sustainable development and healing across Nigeria, anchored by our active community-led projects.",
+    "We operate on a fundamental conviction that every individual deserves dignity, hope, and the opportunity to thrive. Our five core thematic areas drive sustainable development and healing across Nigeria, anchored by our active community-led projects.",
   foundedYear: 2021,
   email: "info@trustsaids.org",
   partnershipsEmail: "partnerships@trustaidprofessional.org",
@@ -10,9 +10,9 @@ export const siteConfig = {
   location: "No1 Intercity Bank Road, Central Business District, Mogadishu, Kaduna",
   fieldOffices: "Taraba, Benue, Nasarawa, and Kaduna States",
   vision:
-    "To transform lives by building peaceful, resilient communities anchored in healthy minds and a greener planet.",
+    "To transform lives by building peaceful, transparent, and resilient communities anchored in healthy minds, good governance, and a greener planet.",
   mission:
-    "To foster lasting peace and social cohesion while driving climate resilience through proactive anticipatory action and early warning systems.",
+    "To foster lasting peace, social cohesion, and accountable institutions while driving climate resilience and evidence-based development through proactive action and research.",
   history:
     "Trust Aid was founded in August 2021 in response to the compounding crises facing vulnerable Nigerians, including conflict, displacement, healthcare deficits, climate change, and socio-economic challenge. We are dedicated to building community resilience and restoring hope during and after violence, crises, and environmental disasters.",
 };

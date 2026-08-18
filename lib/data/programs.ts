@@ -1,4 +1,4 @@
-import { HeartHandshake, ShieldCheck, Sprout, Coins, type LucideIcon } from "lucide-react";
+import { HeartHandshake, ShieldCheck, Sprout, Coins, Landmark, type LucideIcon } from "lucide-react";
 
 export type Pillar = {
   slug: string;
@@ -68,6 +68,20 @@ export const pillars: Pillar[] = [
     ],
     whatWeDo:
       "We equip vulnerable families with sustainable economic and vocational skills, targeting the most vulnerable and marginalized populations across Nigeria, including survivors of violent conflict and banditry attacks, Internally Displaced Persons (IDPs), and survivors of Sexual and Gender-Based Violence (SGBV).",
+  },
+  {
+    slug: "research-good-governance",
+    icon: Landmark,
+    title: "Research and Good Governance",
+    subtitle: "",
+    description:
+      "Community-led research and transparent, accountable governance to inform policy and strengthen public trust at the grassroots level.",
+    color: "from-indigo-500 to-indigo-600",
+    narrative: [
+      "Sustainable change depends on more than good intentions — it requires evidence, transparency, and institutions people can trust. We combine community-led research with governance advocacy to close the gap between policy and lived reality across Kaduna, Taraba, Benue, and Nasarawa States.",
+    ],
+    whatWeDo:
+      "We conduct rigorous, community-led research to inform policy, track development gaps, and promote transparent, accountable leadership at the grassroots level to strengthen public trust.",
   },
 ];
 
@@ -152,5 +166,22 @@ export const programDetails: ProgramDetail[] = [
     ],
     beneficiaries:
       "Survivors of violent conflict and banditry attacks, Internally Displaced Persons (IDPs), and survivors of Sexual and Gender-Based Violence (SGBV)",
+  },
+  {
+    icon: Landmark,
+    title: "Research and Good Governance",
+    color: "from-indigo-500 to-indigo-600",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800",
+    description:
+      "We conduct rigorous, community-led research to inform policy, track development gaps, and promote transparent, accountable leadership at the grassroots level to strengthen public trust.",
+    activities: [
+      "Community-led participatory research and data collection",
+      "Policy analysis and evidence-based advocacy",
+      "Development gap mapping and tracking",
+      "Transparency and accountability initiatives",
+      "Grassroots leadership training and engagement",
+      "Public trust and civic engagement campaigns",
+    ],
+    beneficiaries: "Local communities, grassroots leaders, policymakers, and civil society partners",
   },
 ];
