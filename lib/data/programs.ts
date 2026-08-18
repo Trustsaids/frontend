@@ -75,7 +75,7 @@ export const pillars: Pillar[] = [
     title: "Research and Good Governance",
     subtitle: "",
     description:
-      "Community-led research and transparent, accountable governance to inform policy and strengthen public trust at the grassroots level.",
+      "Community-led research that informs policy, tracks development gaps, and promotes transparent, accountable leadership at the grassroots level to strengthen public trust.",
     color: "from-indigo-500 to-indigo-600",
     narrative: [
       "Sustainable change depends on more than good intentions — it requires evidence, transparency, and institutions people can trust. We combine community-led research with governance advocacy to close the gap between policy and lived reality across Kaduna, Taraba, Benue, and Nasarawa States.",
