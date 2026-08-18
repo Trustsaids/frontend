@@ -25,8 +25,8 @@ export default function WhatWeDoPage() {
 
       <section className="section-y bg-white">
         <div className="container-custom max-w-4xl">
+          <SectionHeading title="The Interconnected Cycle of our Thematic Areas" />
           <FadeIn>
-            <SectionHeading title="The Interconnected Cycle of our Thematic Areas" />
             <p className="text-lg leading-relaxed text-gray-700">
               When unaddressed Trauma and Mental Health issues paralyze individuals, they lose
               the capacity to sustain productive Livelihoods and engage in constructive
