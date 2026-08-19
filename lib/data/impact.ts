@@ -30,11 +30,11 @@ export const successStories = [
       "Through Project TRAMHAH, we provided vocational training and trauma healing support to approximately 100 widows in Wukari LGA, equipping them with practical skills for economic independence while supporting their emotional recovery.",
   },
   {
-    state: "Nasarawa",
+    state: "Abuja",
     title: "Empowering Women Through Vocational Training",
-    image: "https://images.unsplash.com/photo-1630509866818-4c7be20bb76d?w=800",
+    image: "/images/success-story-abuja.jpeg",
     description:
-      "In Lafia, we provided vocational training to 1,000+ women, equipping them with practical skills to build sustainable livelihoods and strengthen household income.",
+      "In Abuja, we provided vocational training to 1,000+ women, equipping them with practical skills to build sustainable livelihoods and strengthen household income.",
   },
   {
     state: "Kaduna",
