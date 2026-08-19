@@ -172,7 +172,7 @@ export const programDetails: ProgramDetail[] = [
     icon: Bank,
     title: "Research and Good Governance",
     color: "from-indigo-500 to-indigo-600",
-    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800",
+    image: "/images/research-good-governance.jpeg",
     description:
       "We conduct rigorous, community-led research to inform policy, track development gaps, and promote transparent, accountable leadership at the grassroots level to strengthen public trust.",
     activities: [
