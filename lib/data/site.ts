@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Trust Aid Initiative",
-  tagline: "Transforming Lives, Building Peace, Greening the Planet, Research and Good Governance",
+  tagline: "Transforming Lives through Research and Good Governance",
   description:
     "We operate on a fundamental conviction that every individual deserves dignity, hope, and the opportunity to thrive. Our five core thematic areas drive sustainable development and healing across Nigeria, anchored by our active community-led projects.",
   foundedYear: 2021,
