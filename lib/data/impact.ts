@@ -39,7 +39,7 @@ export const successStories = [
   {
     state: "Kaduna",
     title: "Climate-Smart and Eco-Friendly Farming",
-    image: "/images/success-story-kaduna.jpeg",
+    image: "https://images.unsplash.com/photo-1746014929708-fcb859fd3185?w=800",
     description:
       "We work with farmers in Kaduna State to adopt climate-smart, eco-friendly farming practices, including drought-resistant crops and sustainable water management, strengthening food security and resilience to a changing climate.",
   },

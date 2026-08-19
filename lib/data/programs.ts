@@ -153,7 +153,7 @@ export const programDetails: ProgramDetail[] = [
     icon: Coins,
     title: "Livelihood Empowerment & Economic Inclusion",
     color: "from-amber-500 to-amber-600",
-    image: "https://images.unsplash.com/photo-1630509866818-4c7be20bb76d?w=800",
+    image: "/images/livelihood-empowerment.jpeg",
     description:
       "We equip vulnerable families with sustainable economic and vocational skills, targeting the most vulnerable and marginalized populations across Nigeria.",
     activities: [
