@@ -6,7 +6,7 @@ export const siteConfig = {
   foundedYear: 2021,
   email: "info@trustsaids.org",
   partnershipsEmail: "partnerships@trustaidprofessional.org",
-  phone: "08054466667",
+  phone: "+234 805 446 6667",
   location: "No1 Intercity Bank Road, Central Business District, Mogadishu, Kaduna",
   fieldOffices: "Taraba, Benue, Nasarawa, and Kaduna States",
   vision:
