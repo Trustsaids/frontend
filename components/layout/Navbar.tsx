@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { List, X } from "@phosphor-icons/react";
 import { cn } from "@/lib/utils";
 import { navLinks } from "@/lib/data/site";
 
@@ -89,7 +89,7 @@ export default function Navbar() {
           aria-label="Toggle menu"
           aria-expanded={open}
         >
-          {open ? <X size={22} /> : <Menu size={22} />}
+          {open ? <X size={22} /> : <List size={22} />}
         </button>
       </nav>
 

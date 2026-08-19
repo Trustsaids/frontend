@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle } from "@phosphor-icons/react";
 
 export default function NewsletterForm() {
   const [email, setEmail] = useState("");
@@ -16,7 +16,7 @@ export default function NewsletterForm() {
   if (subscribed) {
     return (
       <div className="mx-auto max-w-md rounded-2xl bg-green-50 p-8 text-center">
-        <CheckCircle2 className="mx-auto mb-4 text-green-600" size={40} />
+        <CheckCircle className="mx-auto mb-4 text-green-600" size={40} />
         <h3 className="mb-2 text-xl font-bold text-gray-900">You&apos;re subscribed!</h3>
         <p className="text-gray-600">Thank you for joining our mailing list.</p>
       </div>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Newspaper, Sparkles, HeartHandshake } from "lucide-react";
+import { Newspaper, Sparkle, Handshake } from "@phosphor-icons/react/ssr";
 import PageHero from "@/components/shared/PageHero";
 import NewsletterForm from "@/components/forms/NewsletterForm";
 import FadeIn from "@/components/shared/FadeIn";
@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 
 const benefits = [
   { icon: Newspaper, title: "Program Updates", description: "News on our trauma healing, peacebuilding, climate, and livelihood programs" },
-  { icon: Sparkles, title: "Impact Stories", description: "Real stories of transformation from communities we serve" },
-  { icon: HeartHandshake, title: "Ways to Help", description: "Opportunities to volunteer, partner, or give" },
+  { icon: Sparkle, title: "Impact Stories", description: "Real stories of transformation from communities we serve" },
+  { icon: Handshake, title: "Ways to Help", description: "Opportunities to volunteer, partner, or give" },
 ];
 
 export default function NewsletterPage() {

@@ -1,7 +1,8 @@
-import { HandHeart, Briefcase, HeartHandshake, type LucideIcon } from "lucide-react";
+import { HandHeart, Briefcase, Handshake } from "@phosphor-icons/react/ssr";
+import type { Icon } from "@phosphor-icons/react";
 
 export const involvementWays: {
-  icon: LucideIcon;
+  icon: Icon;
   title: string;
   description: string;
   color: string;
@@ -38,7 +39,7 @@ export const involvementWays: {
     cta: "View Open Positions",
   },
   {
-    icon: HeartHandshake,
+    icon: Handshake,
     title: "Volunteering",
     description: "Contribute your skills and time to support community transformation.",
     color: "from-purple-600 to-purple-700",

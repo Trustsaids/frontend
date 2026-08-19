@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { CalendarX } from "lucide-react";
+import { CalendarX } from "@phosphor-icons/react/ssr";
 import PageHero from "@/components/shared/PageHero";
 import FadeIn from "@/components/shared/FadeIn";
 

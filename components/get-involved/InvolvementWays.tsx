@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle } from "@phosphor-icons/react";
 import SafeImage from "@/components/shared/SafeImage";
 import FadeIn from "@/components/shared/FadeIn";
 import { involvementWays } from "@/lib/data/getInvolved";
@@ -34,7 +34,7 @@ export default function InvolvementWays() {
                 <ul className="mb-6 flex-1 space-y-2">
                   {way.details.map((detail) => (
                     <li key={detail} className="flex items-start gap-2 text-sm text-gray-600">
-                      <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-green-600" />
+                      <CheckCircle size={16} className="mt-0.5 shrink-0 text-green-600" />
                       {detail}
                     </li>
                   ))}

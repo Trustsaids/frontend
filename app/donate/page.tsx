@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ShieldCheck, HeartHandshake, Sprout } from "lucide-react";
+import { ShieldCheck, Handshake, Plant } from "@phosphor-icons/react/ssr";
 import PageHero from "@/components/shared/PageHero";
 import DonationForm from "@/components/forms/DonationForm";
 import FadeIn from "@/components/shared/FadeIn";
@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 };
 
 const impactPoints = [
-  { icon: HeartHandshake, text: "₦10,000 provides a trauma counseling session for a survivor" },
-  { icon: Sprout, text: "₦25,000 supplies climate-smart seedlings for a farming household" },
+  { icon: Handshake, text: "₦10,000 provides a trauma counseling session for a survivor" },
+  { icon: Plant, text: "₦25,000 supplies climate-smart seedlings for a farming household" },
   { icon: ShieldCheck, text: "₦50,000 helps train a community peace monitor for EWER" },
 ];
 

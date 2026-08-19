@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight } from "@phosphor-icons/react/ssr";
 import PageHero from "@/components/shared/PageHero";
 import ProgramPillars from "@/components/home/ProgramPillars";
 import CtaBanner from "@/components/shared/CtaBanner";

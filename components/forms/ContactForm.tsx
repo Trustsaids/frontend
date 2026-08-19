@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle } from "@phosphor-icons/react";
 import { contactSubjects } from "@/lib/data/getInvolved";
 
 export default function ContactForm() {
@@ -17,7 +17,7 @@ export default function ContactForm() {
   if (submitted) {
     return (
       <div className="rounded-2xl bg-green-50 p-10 text-center">
-        <CheckCircle2 className="mx-auto mb-4 text-green-600" size={48} />
+        <CheckCircle className="mx-auto mb-4 text-green-600" size={48} />
         <h3 className="mb-2 text-2xl font-bold text-gray-900">Message Sent!</h3>
         <p className="text-gray-600">
           Thank you for reaching out. We&apos;ll get back to you within 24-48 hours.

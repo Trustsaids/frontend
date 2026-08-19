@@ -2,7 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { MapPin, Clock, CalendarDays, X, CheckCircle2 } from "lucide-react";
+import { MapPin, Clock, CalendarDots, X, CheckCircle } from "@phosphor-icons/react";
 import SectionHeading from "@/components/shared/SectionHeading";
 import FadeIn from "@/components/shared/FadeIn";
 import { jobOpenings } from "@/lib/data/getInvolved";
@@ -44,7 +44,7 @@ export default function JobOpenings() {
                         <Clock size={16} /> {job.type}
                       </span>
                       <span className="flex items-center gap-1.5">
-                        <CalendarDays size={16} /> Apply by {job.deadline}
+                        <CalendarDots size={16} /> Apply by {job.deadline}
                       </span>
                     </div>
                   </div>
@@ -98,7 +98,7 @@ export default function JobOpenings() {
 
               {submitted ? (
                 <div className="py-8 text-center">
-                  <CheckCircle2 className="mx-auto mb-4 text-green-600" size={48} />
+                  <CheckCircle className="mx-auto mb-4 text-green-600" size={48} />
                   <h3 className="mb-2 text-2xl font-bold text-gray-900">Application Submitted!</h3>
                   <p className="mb-6 text-gray-600">
                     Thank you for applying to {activeJob}. Our team will review your

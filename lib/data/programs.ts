@@ -1,8 +1,9 @@
-import { HeartHandshake, ShieldCheck, Sprout, Coins, Landmark, type LucideIcon } from "lucide-react";
+import { Handshake, ShieldCheck, Plant, Coins, Bank } from "@phosphor-icons/react/ssr";
+import type { Icon } from "@phosphor-icons/react";
 
 export type Pillar = {
   slug: string;
-  icon: LucideIcon;
+  icon: Icon;
   title: string;
   subtitle: string;
   description: string;
@@ -14,7 +15,7 @@ export type Pillar = {
 export const pillars: Pillar[] = [
   {
     slug: "trauma-mental-health",
-    icon: HeartHandshake,
+    icon: Handshake,
     title: "Trauma & Mental Health",
     subtitle: "Project TRAMHAH",
     description:
@@ -43,7 +44,7 @@ export const pillars: Pillar[] = [
   },
   {
     slug: "climate-action",
-    icon: Sprout,
+    icon: Plant,
     title: "Climate Action",
     subtitle: "Anticipatory Action",
     description:
@@ -71,7 +72,7 @@ export const pillars: Pillar[] = [
   },
   {
     slug: "research-good-governance",
-    icon: Landmark,
+    icon: Bank,
     title: "Research and Good Governance",
     subtitle: "",
     description:
@@ -86,7 +87,7 @@ export const pillars: Pillar[] = [
 ];
 
 export type ProgramDetail = {
-  icon: LucideIcon;
+  icon: Icon;
   title: string;
   color: string;
   image: string;
@@ -97,7 +98,7 @@ export type ProgramDetail = {
 
 export const programDetails: ProgramDetail[] = [
   {
-    icon: HeartHandshake,
+    icon: Handshake,
     title: "Trauma and Mental Health Awareness and Healing (Project TRAMHAH)",
     color: "from-blue-500 to-blue-600",
     image: "https://images.unsplash.com/photo-1687421419353-db28220cef00?w=800",
@@ -133,7 +134,7 @@ export const programDetails: ProgramDetail[] = [
       "Conflict-affected communities, traditional and religious leaders, youth groups",
   },
   {
-    icon: Sprout,
+    icon: Plant,
     title: "Climate Action & Environmental Resilience",
     color: "from-green-600 to-green-700",
     image: "https://images.unsplash.com/photo-1746014929708-fcb859fd3185?w=800",
@@ -168,7 +169,7 @@ export const programDetails: ProgramDetail[] = [
       "Survivors of violent conflict and banditry attacks, Internally Displaced Persons (IDPs), and survivors of Sexual and Gender-Based Violence (SGBV)",
   },
   {
-    icon: Landmark,
+    icon: Bank,
     title: "Research and Good Governance",
     color: "from-indigo-500 to-indigo-600",
     image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800",

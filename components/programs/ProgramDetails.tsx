@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckCircle2, Users } from "lucide-react";
+import { CheckCircle, Users } from "@phosphor-icons/react";
 import SafeImage from "@/components/shared/SafeImage";
 import FadeIn from "@/components/shared/FadeIn";
 import { programDetails } from "@/lib/data/programs";
@@ -33,7 +33,7 @@ export default function ProgramDetails() {
                   <ul className="mb-6 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-2">
                     {program.activities.map((activity) => (
                       <li key={activity} className="flex items-start gap-2 text-sm text-gray-600">
-                        <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-green-600" />
+                        <CheckCircle size={16} className="mt-0.5 shrink-0 text-green-600" />
                         {activity}
                       </li>
                     ))}

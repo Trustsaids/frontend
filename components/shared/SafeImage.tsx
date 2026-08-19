@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { ImageOff } from "lucide-react";
+import { ImageBroken } from "@phosphor-icons/react";
 import { cn } from "@/lib/utils";
 
 export default function SafeImage({
@@ -24,7 +24,7 @@ export default function SafeImage({
     return (
       <div className={cn("flex items-center justify-center bg-gray-200 text-gray-500", className)}>
         <div className="p-8 text-center text-sm">
-          <ImageOff className="mx-auto mb-2" size={40} />
+          <ImageBroken className="mx-auto mb-2" size={40} />
           {alt}
         </div>
       </div>

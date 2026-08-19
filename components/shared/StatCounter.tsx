@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { animate, useInView } from "framer-motion";
-import type { LucideIcon } from "lucide-react";
+import type { Icon as PhosphorIcon } from "@phosphor-icons/react";
 
 function parseTarget(value: string) {
   const match = value.match(/[\d,.]+/);
@@ -20,7 +20,7 @@ export default function StatCounter({
   label,
   color = "text-green-600",
 }: {
-  icon?: LucideIcon;
+  icon?: PhosphorIcon;
   number: string;
   label: string;
   color?: string;

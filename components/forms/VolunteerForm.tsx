@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle } from "@phosphor-icons/react";
 import { involvementWays } from "@/lib/data/getInvolved";
 
 const interestAreas = involvementWays.find((w) => w.title === "Volunteering")?.details ?? [];
@@ -25,7 +25,7 @@ export default function VolunteerForm() {
   if (submitted) {
     return (
       <div className="mx-auto max-w-lg rounded-2xl bg-white p-10 text-center shadow-md">
-        <CheckCircle2 className="mx-auto mb-4 text-green-600" size={48} />
+        <CheckCircle className="mx-auto mb-4 text-green-600" size={48} />
         <h3 className="mb-2 text-2xl font-bold text-gray-900">Thank You!</h3>
         <p className="text-gray-600">
           We&apos;ve received your interest in volunteering. Our team will reach out to

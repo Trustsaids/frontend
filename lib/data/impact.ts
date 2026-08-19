@@ -1,8 +1,9 @@
-import { Sprout, GraduationCap, HeartHandshake, type LucideIcon } from "lucide-react";
+import { Plant, GraduationCap, Handshake } from "@phosphor-icons/react/ssr";
+import type { Icon } from "@phosphor-icons/react";
 
-export const impactStats: { icon: LucideIcon; number: string; label: string; color: string }[] = [
+export const impactStats: { icon: Icon; number: string; label: string; color: string }[] = [
   {
-    icon: Sprout,
+    icon: Plant,
     number: "1,000+",
     label: "Rural farmers trained on climate-smart and eco-friendly farming in Kaduna State",
     color: "text-green-600",
@@ -14,7 +15,7 @@ export const impactStats: { icon: LucideIcon; number: string; label: string; col
     color: "text-blue-600",
   },
   {
-    icon: HeartHandshake,
+    icon: Handshake,
     number: "100+",
     label: "Clients provided trauma counseling services",
     color: "text-purple-600",

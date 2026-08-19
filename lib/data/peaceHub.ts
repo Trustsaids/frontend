@@ -1,8 +1,9 @@
-import { Radar, Bell, Users2, GraduationCap, HeartHandshake, type LucideIcon } from "lucide-react";
+import { Broadcast, Bell, UsersThree, GraduationCap, Handshake } from "@phosphor-icons/react/ssr";
+import type { Icon } from "@phosphor-icons/react";
 
-export const ewerSteps: { icon: LucideIcon; title: string; description: string }[] = [
+export const ewerSteps: { icon: Icon; title: string; description: string }[] = [
   {
-    icon: Radar,
+    icon: Broadcast,
     title: "1. Detection",
     description: "Community monitors identify early warning signs of potential conflict",
   },
@@ -12,7 +13,7 @@ export const ewerSteps: { icon: LucideIcon; title: string; description: string }
     description: "Rapid communication to peace committees and stakeholders",
   },
   {
-    icon: Users2,
+    icon: UsersThree,
     title: "3. Response",
     description: "Peace committees mediate and de-escalate within 48 hours",
   },
@@ -38,19 +39,19 @@ export const caseStudyTimeline = [
   { window: "Hour 24-36", detail: "Mediation session held, agreement reached on grazing corridors" },
 ];
 
-export const peaceCapacityBuilding: { icon: LucideIcon; title: string; description: string }[] = [
+export const peaceCapacityBuilding: { icon: Icon; title: string; description: string }[] = [
   {
     icon: GraduationCap,
     title: "Peace Committee Training",
     description: "Comprehensive training in conflict analysis, mediation, and dialogue facilitation",
   },
   {
-    icon: HeartHandshake,
+    icon: Handshake,
     title: "Mentorship & Coaching",
     description: "Continuous support and coaching for peace practitioners in the field",
   },
   {
-    icon: Users2,
+    icon: UsersThree,
     title: "Community Monitors",
     description: "Continuous training of peace committees and community monitors",
   },

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight } from "@phosphor-icons/react/ssr";
 import SectionHeading from "@/components/shared/SectionHeading";
 import SafeImage from "@/components/shared/SafeImage";
 import FadeIn from "@/components/shared/FadeIn";

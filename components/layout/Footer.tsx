@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin, Mail, Phone, CheckCircle2 } from "lucide-react";
+import { MapPin, EnvelopeSimple, Phone, CheckCircle } from "@phosphor-icons/react";
 import { footerLinks, siteConfig } from "@/lib/data/site";
 import { pillars } from "@/lib/data/programs";
 
@@ -76,7 +76,7 @@ export default function Footer() {
             </a>
           </p>
           <p className="mb-4 flex items-center gap-2 text-sm text-gray-400">
-            <Mail size={16} className="shrink-0" />
+            <EnvelopeSimple size={16} className="shrink-0" />
             <a href={`mailto:${siteConfig.email}`} className="hover:text-white">
               {siteConfig.email}
             </a>
@@ -84,7 +84,7 @@ export default function Footer() {
 
           {subscribed ? (
             <p className="flex items-center gap-2 rounded-lg bg-white/5 px-3 py-2.5 text-sm text-green-400">
-              <CheckCircle2 size={16} /> Subscribed! Thank you.
+              <CheckCircle size={16} /> Subscribed! Thank you.
             </p>
           ) : (
             <form onSubmit={handleSubscribe} className="mt-4">

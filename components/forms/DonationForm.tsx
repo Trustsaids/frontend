@@ -2,7 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import { cn } from "@/lib/utils";
-import { CheckCircle2, HandCoins } from "lucide-react";
+import { CheckCircle, HandCoins } from "@phosphor-icons/react";
 
 const presetAmounts = ["5,000", "10,000", "25,000", "50,000"];
 const frequencies = ["One-time", "Monthly"] as const;
@@ -24,7 +24,7 @@ export default function DonationForm() {
   if (submitted) {
     return (
       <div className="rounded-2xl bg-green-50 p-10 text-center">
-        <CheckCircle2 className="mx-auto mb-4 text-green-600" size={48} />
+        <CheckCircle className="mx-auto mb-4 text-green-600" size={48} />
         <h3 className="mb-2 text-2xl font-bold text-gray-900">Thank you, {donor.name || "friend"}!</h3>
         <p className="mx-auto max-w-md text-gray-600">
           Your {frequency.toLowerCase()} pledge of ₦{finalAmount || "0"} means a lot. This demo
