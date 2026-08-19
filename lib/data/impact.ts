@@ -25,7 +25,7 @@ export const successStories = [
   {
     state: "Taraba",
     title: "Vocational Training and Healing",
-    image: "https://images.unsplash.com/photo-1515657834497-26509e295154?w=800",
+    image: "/images/success-story-taraba.jpeg",
     description:
       "Through Project TRAMHAH, we provided vocational training and trauma healing support to approximately 100 widows in Wukari LGA, equipping them with practical skills for economic independence while supporting their emotional recovery.",
   },
