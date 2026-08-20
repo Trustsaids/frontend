@@ -137,7 +137,7 @@ export const programDetails: ProgramDetail[] = [
     icon: Plant,
     title: "Climate Action & Environmental Resilience",
     color: "from-green-600 to-green-700",
-    image: "https://images.unsplash.com/photo-1746014929708-fcb859fd3185?w=800",
+    image: "/images/climate-action.jpeg",
     description:
       "We deploy early warning, early response systems to mitigate environmental and climate risks through sharing of real-time environmental data to protect vulnerable agricultural communities, and educating rural populations on sustainable farming and eco-friendly energy alternatives.",
     activities: [
