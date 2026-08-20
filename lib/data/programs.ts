@@ -119,7 +119,7 @@ export const programDetails: ProgramDetail[] = [
     icon: ShieldCheck,
     title: "Peacebuilding & Conflict Prevention",
     color: "from-purple-500 to-purple-600",
-    image: "https://images.unsplash.com/photo-1515657834497-26509e295154?w=800",
+    image: "/images/peacebuilding.jpeg",
     description:
       "We foster community dialogue, mediation, and sustainable social cohesion. We host structured peace forums between conflicting communities to restore trust, engage youth and traditional leaders in joint community-driven development activities, and de-escalate localized tensions before they break out into active violence.",
     activities: [
