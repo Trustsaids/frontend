@@ -11,7 +11,7 @@ export const impactStats: { icon: Icon; number: string; label: string; color: st
   {
     icon: GraduationCap,
     number: "6,000+",
-    label: "Women and youths given vocational training across Kaduna, Taraba, Benue, Nasarawa States, and the FCT",
+    label: "Women and youths given vocational training across Kaduna, Taraba, Benue, Nasarawa States, and Abuja",
     color: "text-blue-600",
   },
   {

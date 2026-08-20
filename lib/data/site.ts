@@ -70,7 +70,7 @@ export const homeImpactStats = [
   },
   {
     number: "6,000+",
-    label: "Women and youths given vocational training across Kaduna, Taraba, Benue, Nasarawa States, and the FCT",
+    label: "Women and youths given vocational training across Kaduna, Taraba, Benue, Nasarawa States, and Abuja",
     color: "text-blue-600",
   },
   { number: "100+", label: "Clients provided trauma counseling services", color: "text-purple-600" },
