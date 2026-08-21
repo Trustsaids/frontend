@@ -54,12 +54,12 @@ export const timeline = [
 ];
 
 export const galleryImages = [
-  { url: "https://images.unsplash.com/photo-1515657834497-26509e295154?w=600", alt: "Community celebration" },
-  { url: "https://images.unsplash.com/photo-1658129850537-ea7517a9682f?w=600", alt: "Children's program" },
-  { url: "https://images.unsplash.com/photo-1746014929708-fcb859fd3185?w=600", alt: "Agricultural training" },
-  { url: "https://images.unsplash.com/photo-1630509866818-4c7be20bb76d?w=600", alt: "Women's empowerment" },
-  { url: "https://images.unsplash.com/photo-1687421419353-db28220cef00?w=600", alt: "Community unity" },
-  { url: "https://images.unsplash.com/photo-1651838677683-f642527059c6?w=600", alt: "Sustainable farming" },
+  { url: "/images/gallery-tie-dye-blue.jpeg", alt: "Women showcasing tie-dye fabric from vocational training" },
+  { url: "/images/gallery-women-circle.jpeg", alt: "Women gathered together during a community program" },
+  { url: "/images/gallery-vocational-training.jpeg", alt: "Vocational training session for women" },
+  { url: "/images/gallery-product-making.jpeg", alt: "Women making shampoo and soap products" },
+  { url: "/images/gallery-tie-dye-purple.jpeg", alt: "Women showcasing purple tie-dye fabric from vocational training" },
+  { url: "/images/gallery-team-meeting.jpeg", alt: "Team meeting with staff and community members" },
 ];
 
 export const homeImpactStats = [

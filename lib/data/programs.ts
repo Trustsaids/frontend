@@ -101,7 +101,7 @@ export const programDetails: ProgramDetail[] = [
     icon: Handshake,
     title: "Trauma and Mental Health Awareness and Healing (Project TRAMHAH)",
     color: "from-blue-500 to-blue-600",
-    image: "https://images.unsplash.com/photo-1687421419353-db28220cef00?w=800",
+    image: "/images/trauma-mental-health.jpeg",
     description:
       "Project TRAMHAH is our ongoing community initiative designed to heal the invisible wounds of conflict, banditry, and displacement. Our mission is to restore psychological well-being and emotional stability to vulnerable individuals in conflict-affected regions.",
     activities: [
