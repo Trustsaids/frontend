@@ -59,13 +59,6 @@ export default function ContactPage() {
                 <a href={`mailto:${siteConfig.email}`} className="text-gray-600 hover:text-green-700">
                   {siteConfig.email}
                 </a>
-                <br />
-                <a
-                  href={`mailto:${siteConfig.partnershipsEmail}`}
-                  className="text-gray-600 hover:text-green-700"
-                >
-                  {siteConfig.partnershipsEmail}
-                </a>
               </div>
             </div>
           </FadeIn>

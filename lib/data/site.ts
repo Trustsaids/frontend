@@ -5,7 +5,6 @@ export const siteConfig = {
     "We operate on a fundamental conviction that every individual deserves dignity, hope, and the opportunity to thrive. Our five core thematic areas drive sustainable development and healing across Nigeria, anchored by our active community-led projects.",
   foundedYear: 2021,
   email: "info@trustsaids.org",
-  partnershipsEmail: "partnerships@trustaidprofessional.org",
   phone: "+234 805 446 6667",
   location: "No1 Intercity Bank Road, Central Business District, Mogadishu, Kaduna",
   fieldOffices: "Taraba, Benue, Nasarawa, and Kaduna States",
